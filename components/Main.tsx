@@ -9,10 +9,9 @@ const Main = () => {
       <div className='hero min-h-screen bg-base-200'>
         <div className='hero-content text-center'>
           <div className='max-w-md'>
-            <h1 className='text-6xl font-bold'>Hi there, I'm Charlie.</h1>
+            <h1 className='text-6xl font-bold'>{"Hi there, I'm Charlie."}</h1>
             <p className='text-lg py-6'>
-              I'm a student at the University of the Chicago studying economics
-              and computer science.
+              {"I'm a student-athlete at the University of the Chicago studying economics and computer science."}
             </p>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
               <a
