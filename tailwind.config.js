@@ -6,25 +6,27 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      Inter: ['Inter'],
+    },
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
 
   daisyui: {
     styled: true,
     themes: [
-      'night',
+      // 'dark',
       {
         mytheme: {
-          primary: '#92c5fd',
+          primary: '#61afef',
 
-          secondary: '#dcddde',
+          secondary: '#ffffff',
 
           accent: '#1FB2A6',
 
-          neutral: '#1e1e1e',
+          neutral: '#20242b',
 
-          'base-100': '#1e1e1e',
-
+          'base-100': '#282C34',
           info: '#3ABFF8',
 
           success: '#36D399',

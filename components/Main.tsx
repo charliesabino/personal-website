@@ -1,17 +1,19 @@
 import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
+import { GrMail } from 'react-icons/gr'
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import Link from 'next/link'
 
 const Main = () => {
   return (
     <div>
-      <div className='hero min-h-screen bg-base-200'>
+      <div className='hero min-h-screen bg-neutral'>
         <div className='hero-content text-center'>
-          <div className='max-w-md'>
-            <h1 className='text-6xl font-bold'>{"Hi there, I'm Charlie."}</h1>
-            <p className='text-lg py-6'>
-              {"I'm a student-athlete at the University of the Chicago studying economics and computer science."}
+          <div className='max-w-lg'>
+            <h1 className='text-6xl font-bold'>{"Hey, I'm Charlie."}</h1>
+            <p className='text-lg py-6 font-int'>
+              {
+                "I'm a student-athlete at the University of the Chicago studying economics and computer science."
+              }
             </p>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
               <a
@@ -39,7 +41,7 @@ const Main = () => {
               </Link>
               <Link href='mailto:sabinocharlie@gmail.com'>
                 <div className='btn-primary rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                  <AiOutlineMail />
+                  <GrMail />
                 </div>
               </Link>
             </div>
