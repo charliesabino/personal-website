@@ -18,7 +18,7 @@ module.exports = {
       // 'dark',
       {
         mytheme: {
-          primary: '#61afef',
+          primary: '#3fb1f5',
 
           secondary: '#ffffff',
 
