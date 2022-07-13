@@ -10,7 +10,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Charlie Sabino</title>
         <meta name='description' content="Charlie Sabino's website" />
-        <link rel='initials' href='/../public/bigcerul.png' />
+        <link rel='icon' href='/blue2.png' />
+        <script async src="https://cdn.splitbee.io/sb.js"></script>
       </Head>
       <Navbar />
       <Main />

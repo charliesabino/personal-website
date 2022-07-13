@@ -20,13 +20,14 @@ module.exports = {
         mytheme: {
           primary: '#3fb1f5',
 
-          secondary: '#ffffff',
+          secondary: '#f95b6e',
 
-          accent: '#1FB2A6',
+          accent: '#d273e3',
 
-          neutral: '#20242b',
+          neutral: '#272c35',
 
-          'base-100': '#282C34',
+          'base-100': '#2b323d',
+
           info: '#3ABFF8',
 
           success: '#36D399',
