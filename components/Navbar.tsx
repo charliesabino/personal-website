@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { IoPersonOutline, IoNewspaperOutline } from 'react-icons/io5'
+import NavLogo from '../public/assets/navLogo.png'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className='rounded-lg justify-between w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <Image
-            src='/../public/assets/blue2.png'
+            src={NavLogo}
             alt='logo'
             width='90'
             height='75'
